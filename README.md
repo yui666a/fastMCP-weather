@@ -63,7 +63,7 @@
 2. 依存関係をインストールします：
 
 ```bash
-pip install -r requirements.txt
+pip install uv httpx "mcp[cli]"
 ```
 
 ## 使用方法

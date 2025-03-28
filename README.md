@@ -10,10 +10,10 @@
 {
   "mcpServers": {
     "weather": {
-      "command": "uv",
+      "command": "/Users/{{USER}}/.asdf/shims/uv",
       "args": [
         "--directory",
-        "/Users/yui666a/Projects/fastMCP-weather/weather",
+        "/Users/{{USER}}/{{PATH_TO_PROJECT}}/fastMCP-weather",
         "run",
         "weather.py"
       ]
